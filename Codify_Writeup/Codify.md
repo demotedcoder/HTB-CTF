@@ -1,17 +1,18 @@
 ![](assets/images/banner.png)
 
-<img src="./assets/images/htb.png" style="margin-left: 20px; zoom: 60%;" align=left /> <font size="10">Codify</font>
+<img src="https://www.hackthebox.com/storage/avatars/57b977ea744af01a5454c8643a850e59.png" style="margin-left: 20px; zoom: 60%;" align=left /> <font size="10">Codify</font>
 
-​ 11<sup>th</sup> November 2023
+​11<sup>th</sup> November 2023
 
-​ Machine Author(s): kavigihan
+​Machine Author(s): kavigihan
 <br>
 Prepared by: demotedc0der
 
-​
-
 ### Difficulty: `Easy`
-
+<br>
+<br>
+<br>
+<br>
 <br>
 
 # Enumeration
@@ -98,3 +99,8 @@ Check out the pspy's output, and from there, you can see a command is executed, 
 ...and voilààà we have a root shell.
 
 <img src="./assets/images/Capture15.JPG" />
+
+
+<i>References:</i>
+https://gist.github.com/leesh3288/381b230b04936dd4d74aaf90cc8bb244
+https://tldp.org/LDP/abs/html/comparison-ops.html
