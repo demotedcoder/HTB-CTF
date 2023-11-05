@@ -18,11 +18,11 @@ Prepared by: demotedc0der
 
 Let's run Nmap to discover any open ports on the remote host (using the proper options):
 
-<img src="./assets/images/capture0.JPG" />
+<img src="./assets/images/Capture0.JPG" />
 
 Wappalyzer is a great extension to show all the technologies used on the WebApp.
 
-<img src="./assets/images/capture3.JPG" />
+<img src="./assets/images/Capture3.JPG" />
 
 <br>
 
@@ -30,13 +30,13 @@ Wappalyzer is a great extension to show all the technologies used on the WebApp.
 
 There's a simple code editor where it executes Node.js code.
 
-<img src="./assets/images/capture1.JPG" />
+<img src="./assets/images/Capture1.JPG" />
 
 There technically exists a vulnerability in the exception sanitization of vm2, which can be used to escape the sandbox and run arbitrary code in the host context.
 
-<img src="./assets/images/capture2.JPG" />
+<img src="./assets/images/Capture2.JPG" />
 
-<img src="./assets/images/capture01.JPG" />
+<img src="./assets/images/Capture01.JPG" />
 
 <br>
 
@@ -44,7 +44,7 @@ There technically exists a vulnerability in the exception sanitization of vm2, w
 
 We successfully got the shell as user svc.
 
-<img src="./assets/images/capture4.JPG" />
+<img src="./assets/images/Capture4.JPG" />
 
 <br>
 
@@ -52,49 +52,49 @@ We successfully got the shell as user svc.
 
 Move to the /var/www/contact directory, and we can find the 'tickets.db' file.
 
-<img src="./assets/images/capture5.JPG" />
+<img src="./assets/images/Capture5.JPG" />
 
 Copy this file to the local host and use sqlitebrowser to read the DB.
 
-<img src="./assets/images/capture6.JPG" />
+<img src="./assets/images/Capture6.JPG" />
 
 Use John to dehash it.
 
-<img src="./assets/images/capture7.JPG" />
+<img src="./assets/images/Capture7.JPG" />
 
 Login as Joshua using SSH, and the user flag can be obtained at /home/joshua.
 
-<img src="./assets/images/capture8.JPG" />
+<img src="./assets/images/Capture8.JPG" />
 
 <br>
 
 # Privilege Escalation
 
-<img src="./assets/images/capture9.JPG" />
+<img src="./assets/images/Capture9.JPG" />
 
 The conditional statement is the part where things get interesting.
 It can be easily manipulated to make it true.
 
-<img src="./assets/images/capture10.JPG" />
+<img src="./assets/images/Capture10.JPG" />
 
 <br>
 
 Create 2 SSH sessions, in one execute <b>./pspy32 -f</b> (-f option to see the actions of processes) and in the second one execute the script as sudo <b>sudo /opt/scripts/mysql_backup.sh</b>
 
-<img src="./assets/images/capture11.JPG" />
+<img src="./assets/images/Capture11.JPG" />
 
-<img src="./assets/images/capture12.JPG" />
+<img src="./assets/images/Capture12.JPG" />
 
 So the tricky thing here is to enter \* (asterisk) so that $DB_PASS matches with it and eventually is true.
 
-<img src="./assets/images/capture13.JPG" />
+<img src="./assets/images/Capture13.JPG" />
 
 Check out the pspy's output, and from there, you can see a command is executed, -p specify the password. Use that password to log in as root.
 
-<img src="./assets/images/capture14.JPG" />
+<img src="./assets/images/Capture14.JPG" />
 
 <br>
 
 ...and voilààà we have a root shell.
 
-<img src="./assets/images/capture15.JPG" />
+<img src="./assets/images/Capture15.JPG" />
