@@ -2,7 +2,7 @@
 
 <img src="https://www.hackthebox.com/storage/avatars/57b977ea744af01a5454c8643a850e59.png" style="margin-left: 20px; zoom: 60%;" align=left /> <font size="10">Codify</font>
 
-​11<sup>th</sup> November 2023
+4<sup>th</sup> November 2023
 
 ​Machine Author(s): kavigihan
 <br>
