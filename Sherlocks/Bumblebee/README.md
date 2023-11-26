@@ -6,3 +6,4 @@ An external contractor has accessed the internal forum here at Forela via the Gu
 
 <img src="./assets/images/Capture1.PNG">
 <img src="./assets/images/Capture2.PNG">
+<b>Please use it only as a reference; DON'T CHEAT!!!</b>

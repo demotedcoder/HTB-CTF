@@ -7,3 +7,4 @@ As a fast growing startup, Forela have been utilising a business management plat
 <img src="./assets/images/Capture1.PNG">
 <img src="./assets/images/Capture2.PNG">
 <img src="./assets/images/Capture3.PNG">
+<b>Please use it only as a reference; DON'T CHEAT!!!</b>

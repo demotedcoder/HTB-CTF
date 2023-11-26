@@ -6,3 +6,4 @@ Khalid has just logged onto a host that he and his team use as a testing host fo
 
 <img src="./assets/images/Capture1.PNG">
 <img src="./assets/images/Capture2.PNG">
+<b>Please use it only as a reference; DON'T CHEAT!!!</b>
