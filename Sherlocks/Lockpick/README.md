@@ -4,7 +4,7 @@ Forela needs your help! A whole portion of our UNIX servers have been hit with w
 
 ## Answers
 
-<img src="./assets/images/Capture1.PNG">
-<img src="./assets/images/Capture2.PNG">
-<img src="./assets/images/Capture3.PNG">
+<img src="./Assets/Images/Capture1.PNG">
+<img src="./Assets/Images/Capture2.PNG">
+<img src="./Assets/Images/Capture3.PNG">
 <b>Please use it only as a reference; DON'T CHEAT!!!</b>
